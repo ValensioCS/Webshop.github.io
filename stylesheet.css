@@ -1,0 +1,429 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header {
+    display: flex;
+    background-color: rgb(255, 255, 255);
+    width: 90%;
+    height: 80px;
+    justify-content: space-between;
+    margin-left: 5%;
+    border-radius: 0px 0px 25px 25px;
+}
+
+header img {
+    width: 320px;
+    height: 40px;
+    margin-right: 20px;
+    margin-top: 13px;
+}
+
+li {
+    list-style-type: none;
+    display: flex;
+    float: left;
+    padding-top: 26px;
+    padding-left: 37px;
+    font-size: 22px;
+    color: rgb(0, 0, 120);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color:rgb(0, 0, 120) ;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.Intro {
+    width: 600px;
+    color: white;
+    font-size: 36px;
+    margin-left: 150px;
+    margin-top: 60px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.Intro button {
+    width: 220px;
+    height: 55px;
+    border-radius: 20ex;
+    background-color: white;
+    margin-left: 17px;
+    margin-top: 20px;
+    color: black;
+    cursor: pointer;
+    font-size: 18px;
+    box-shadow: 3px 3px 3px rgb(61, 61, 61);
+}
+
+#ads {
+    float: right;
+    margin-right: 100px;
+    margin-bottom: 100px;
+    border-radius: 12ex 0 12ex 0 ;
+    width: 690px;
+}
+
+.Video img {
+    margin-top: 200px;
+    margin-left: 150px;
+    width: 500px;
+    border-radius:33ex 33ex 0px 0px;
+    margin-bottom: 40px;
+}
+
+/*-----Best Service-----*/
+main {
+    background-color: snow;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 60px;
+}
+
+main h1 {
+    text-align: center;
+}
+
+main h4 {
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    column-gap: 310px;
+    margin-left: 20px;
+    margin-top: 40px;
+}
+
+.box-1 {
+    height: 200px;
+    width: 400px;
+    background-color: snow;
+
+}
+
+.box-1 img {
+    margin-top: 50px;
+    float: left;
+}
+
+.box-1 h2 {
+    margin-top: 86px;
+    font-size: 17px;
+}
+
+.box-1 p {
+    font-size: 19px;
+}
+
+.box-2{
+    height: 200px;
+    width: 400px;
+    background-color: snow;
+}
+
+.box-2 img{
+    margin-top: 50px;
+    float: left;
+}
+
+.box-2 h2 {
+    margin-top: 86px;
+    font-size: 17px;
+}
+
+.box-2 p {
+    font-size: 19px;
+}
+
+.box-3{
+    height: 200px;
+    width: 400px;
+    background-color: snow;
+}
+
+.box-3 img {
+    margin-top: 50px;
+    float: left;
+}
+
+.box-3 h2 {
+    margin-top: 86px;
+    font-size: 17px;
+}
+
+.box-3 p {
+    font-size: 19px;
+}
+/*-----Best Service-----*/
+
+/*-----Product-----*/
+.Barang {
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    text-align: center;
+    margin-top: 90px;
+}
+
+.Products {
+    background-color: rgb(0, 0, 120);
+    margin-left: 100px;
+    display: flex;
+    column-gap: 145px;
+}
+
+.Item-1 {
+    margin-top: 90px;
+    height: 320px;
+    width: 300px;
+    background-color: snow;
+    border-radius: 3ex;
+    color: black;
+}
+
+.Item-1 img {
+    border-radius: 2ex;
+    margin-top: 30px;
+}
+
+.Item-2 {
+    margin-top: 90px;
+    height: 320px;
+    width: 300px;
+    background-color: snow;
+    border-radius: 3ex;
+    color: black;
+}
+
+.Item-2 img {
+    border-radius: 2ex;
+    margin-top: 30px;
+}
+
+.Item-3 {
+    margin-top: 90px;
+    height: 320px;
+    width: 300px;
+    background-color: snow;
+    border-radius: 3ex;
+    color: black;
+}
+
+.Item-3 img {
+    border-radius: 2ex;
+    margin-top: 30px;
+}
+
+.Item-4 {
+    margin-top: 90px;
+    height: 320px;
+    width: 300px;
+    background-color: snow;
+    border-radius: 3ex;
+    color: black;
+}
+
+.Item-4 img {
+    border-radius: 2ex;
+    margin-top: 30px;
+}
+
+.Products-2 {
+    background-color: rgb(0, 0, 120);
+    margin-left: 100px;
+    display: flex;
+    column-gap: 145px;
+}
+
+.Item-5 {
+    margin-top: 90px;
+    height: 320px;
+    width: 300px;
+    background-color: snow;
+    border-radius: 3ex;
+    color: black;
+}
+
+.Item-5 img {
+    border-radius: 2ex;
+    margin-top: 30px;
+    margin-left: 25px;
+}
+
+.Item-6 {
+    margin-top: 90px;
+    height: 320px;
+    width: 300px;
+    background-color: snow;
+    border-radius: 3ex;
+    color: black;
+}
+
+.Item-6 img {
+    border-radius: 2ex;
+    margin-top: 30px;
+    margin-left: 25px;
+}
+
+.Item-7 {
+    margin-top: 90px;
+    height: 320px;
+    width: 300px;
+    background-color: snow;
+    border-radius: 3ex;
+    color: black;
+}
+
+.Item-7 img {
+    border-radius: 2ex;
+    margin-top: 30px;
+    margin-left: 25px;
+}
+
+.Item-8 {
+    margin-top: 90px;
+    height: 320px;
+    width: 300px;
+    background-color: snow;
+    border-radius: 3ex;
+    color: black;
+}
+
+.Item-8 img {
+    border-radius: 2ex;
+    margin-top: 30px;
+    margin-left: 25px;
+}
+
+.Products-3 {
+    background-color: rgb(0, 0, 120);
+    margin-left: 100px;
+    display: flex;
+    column-gap: 145px;
+}
+
+.Item-9 {
+    margin-left: 450px;
+    margin-top: 90px;
+    height: 320px;
+    width: 300px;
+    background-color: snow;
+    border-radius: 3ex;
+    color: black;
+}
+
+.Item-9 img {
+    border-radius: 2ex;
+    margin-top: 30px;
+    margin-left: 25px;
+}
+
+.Item-10 {
+    margin-top: 90px;
+    height: 320px;
+    width: 300px;
+    background-color: snow;
+    border-radius: 3ex;
+    color: black;
+}
+
+.Item-10 img {
+    border-radius: 2ex;
+    margin-top: 30px;
+    margin-left: 25px;
+}
+
+.Price {
+    margin-top: 70px;
+    background-color: rgb(119, 158, 203);
+    border-radius: 0px 0px 3ex 3ex;
+    padding-bottom: 0px;
+    padding-top: 10px;
+}
+
+.Price-2 {
+    margin-top: 70px;
+    background-color: rgb(119, 158, 203);
+    border-radius: 0px 0px 3ex 3ex;
+    padding-bottom: 0px;
+    padding-top: 10px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.Price-3 {
+    margin-top: 70px;
+    background-color: rgb(194, 189, 189);
+    border-radius: 0px 0px 3ex 3ex;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.Container-end {
+    display: flex;
+    column-gap: px;
+    margin-left: 0px;
+    margin-top: 40px;
+}
+
+.Box-A{
+    width: 800px;
+    height: 400px;
+    background-color: snow;
+}
+
+.Box-B{
+    width: 800px;
+    height: 400px;
+    background-color: snow;
+    text-align: center;
+    margin-top: px;
+}
+
+.Box-C{
+    width: 800px;
+    height: 400px;
+    background-color: snow;
+}
+
+.Box-A img {
+    margin-left: 140px;
+    margin-top: 100px;
+}
+
+.Box-C img {
+    margin-left: 260px;
+    margin-top: 100px;
+}
+
+.Box-B h1 {
+    margin-top: 120px;
+}
+
+Footer {
+    background-color: black;
+}
+
+.Left-side {
+    color: white;
+    width: 700px;
+    height: 150px;
+    margin-left: 575px;
+    text-align: center;
+}
+
+.copyright p {
+    color: white;
+    text-align: center;
+}
+
+
+
+
+
